@@ -1,0 +1,65 @@
+.mainColor {
+    background-color: dimgrey;
+    color: darkred;
+}
+
+.accentColor {
+    background-color: darkred !important;
+}
+
+body {
+    background-image: url('../images/background.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+#mainSection {
+    background-color: rgba(255, 255, 255, 0.6);
+    z-index: 5;
+    flex: 1 0 auto;
+}
+
+.middleScreen {
+    padding-top: 48vh;
+}
+
+.center-element {
+    margin: auto;
+}
+
+.fadeBackground {
+    background-color: rgba(255, 255, 255, 0.6) !important;
+}
+
+.fadeOut {
+    opacity: 0;
+    transition: opacity .50s ease-in-out;
+    -moz-transition: opacity .50s ease-in-out;
+    -webkit-transition: opacity .50s ease-in-out;
+}
+
+.displayNone {
+    display: none;
+}
+
+.reducePadding {
+    padding: 20px !important;
+}
+
+.padding10 {
+    margin: 10px 3px;
+}
+
+#loader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 1000;
+    background-color: #ffffff;
+}

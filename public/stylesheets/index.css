@@ -1,0 +1,28 @@
+body {
+    background-image: url('../images/background.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+#loginDiv {
+    background-color: #ffffff;
+    opacity: 0.85;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+#loginFormDiv {
+
+}
+
+.noMargin {
+    margin: auto;
+}
+
+.mainColor {
+    background-color: darkred;
+    color: dimgrey;
+}

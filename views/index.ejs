@@ -1,11 +1,37 @@
 <!DOCTYPE html>
 <html lang="it">
-  <head>
+<head>
     <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-  </body>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="/stylesheets/materialize.min.css" media="screen,projection"/>
+    <link type="text/css" rel='stylesheet' href='/stylesheets/index.css' media="screen,projection"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8"/>
+</head>
+<body>
+<div class="row noMargin">
+    <div id="loginDiv" class="col xl3 l4 m5 s9">
+        <div id="loginFormDiv" class="valign-wrapper">
+            <form>
+                <div class="row">
+                    <div class="input-field col s10 offset-s1">
+                        <input id="username" type="text" class="validate">
+                        <label for="username"><%= usernameLabel %></label>
+                    </div>
+                    <div class="input-field col s10 offset-s1">
+                        <input id="password" type="password" class="validate">
+                        <label for="password"><%= passwordLabel %> </label>
+                    </div>
+                    <div class="input-field col offset-s1">
+                        <button class="btn waves-effect waves-light mainColor">Submit
+                            <i class="material-icons right">send</i>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<script src="/javascripts/materialize.min.js"></script>
+<script src="/javascripts/index.js"></script>
+</body>
 </html>
