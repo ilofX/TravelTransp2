@@ -26,3 +26,14 @@ body {
     background-color: darkred;
     color: dimgrey;
 }
+
+.fullWidthAnimation {
+    opacity: 1 !important;
+    width: 100vw !important;
+    transition: opacity, width 0.75s ease-in-out;
+}
+
+.hideForm {
+    opacity: 0 !important;
+    transition: opacity 0.75s ease-in-out;
+}

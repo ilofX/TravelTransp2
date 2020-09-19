@@ -11,7 +11,7 @@
 <div class="row noMargin">
     <div id="loginDiv" class="col xl3 l4 m5 s9">
         <div id="loginFormDiv" class="valign-wrapper">
-            <form>
+            <form id="loginForm">
                 <div class="row">
                     <div class="input-field col s10 offset-s1">
                         <input id="username" type="text" class="validate">
@@ -21,11 +21,11 @@
                         <input id="password" type="password" class="validate">
                         <label for="password"><%= passwordLabel %> </label>
                     </div>
-                    <div class="input-field col offset-s1">
-                        <button class="btn waves-effect waves-light mainColor">Submit
-                            <i class="material-icons right">send</i>
-                        </button>
-                    </div>
+                </div>
+                <div class="input-field col offset-s1">
+                    <button type="submit" class="btn waves-effect waves-light mainColor">Submit
+                        <i class="material-icons right">send</i>
+                    </button>
                 </div>
             </form>
         </div>

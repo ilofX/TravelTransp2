@@ -3,6 +3,7 @@ let express = require('express');
 let path = require('path');
 let cookieParser = require('cookie-parser');
 let logger = require('morgan');
+let cors = require('cors');
 let helmet = require('helmet');
 let session = require('express-session');
 let MySQLSessionStore = require('express-mysql-session')(session);
@@ -23,6 +24,9 @@ let apiRouter = require('./routes/api');
 
 //Create express object
 let app = express();
+
+// add CORS support
+app.use(cors());
 
 // add helmet security
 app.use(helmet());
@@ -52,6 +56,7 @@ app.use(session({
     }
 }));
 
+//assigning routes to http paths
 app.use('/', indexRouter);
 app.use('/dashboard', dashRouter);
 app.use('/api', apiRouter);

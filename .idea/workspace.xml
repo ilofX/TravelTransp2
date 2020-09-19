@@ -20,24 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="daa9cab5-9f7d-45ac-8b31-bf635280378d" name="Default Changelist" comment="Graphical Skeleton Ready, main components completed and ready for middleware">
-      <changelist_data name="Filippo Stella" email="filippo.stella.360@gmail.com" />
-      <change afterPath="$PROJECT_DIR$/public/images/background.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/javascripts/dashboard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/javascripts/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/javascripts/materialize.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stylesheets/dashboard.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stylesheets/materialize.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/api.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/dashboard.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/www" beforeDir="false" afterPath="$PROJECT_DIR$/bin/www" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/stylesheets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/dash.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,10 +58,11 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="12.16.3" />
-    <property name="javascript.nodejs.core.library.typings.version" value="12.12.54" />
+    <property name="javascript.nodejs.core.library.configured.version" value="14.16.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.14.37" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/bin/www" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path" value="node" />
@@ -109,7 +93,22 @@
       <workItem from="1599396346660" duration="1020000" />
       <workItem from="1599483333731" duration="1712000" />
       <workItem from="1599497623499" duration="2285000" />
-      <workItem from="1599583681582" duration="3868000" />
+      <workItem from="1599583681582" duration="4662000" />
+      <workItem from="1599591023447" duration="3443000" />
+      <workItem from="1599653992013" duration="673000" />
+      <workItem from="1599685764070" duration="748000" />
+      <workItem from="1599771487206" duration="751000" />
+      <workItem from="1599772351803" duration="273000" />
+      <workItem from="1599925719408" duration="240000" />
+      <workItem from="1599994059606" duration="1777000" />
+      <workItem from="1614302441373" duration="77000" />
+      <workItem from="1614966334144" duration="60000" />
+      <workItem from="1615375137825" duration="49000" />
+      <workItem from="1615474543595" duration="9000" />
+      <workItem from="1615474937035" duration="3000" />
+      <workItem from="1616419044793" duration="34000" />
+      <workItem from="1617908262004" duration="78000" />
+      <workItem from="1617908355660" duration="48000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1598974161433</created>
@@ -118,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598974161433</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Graphical Skeleton Ready, main components completed and ready for middleware">
+      <created>1599587605172</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599587605172</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,51 +154,5 @@
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="757" y="321" key="#Web_Browsers" timestamp="1599333208659">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="757" y="321" key="#Web_Browsers/0.0.1920.1040@0.0.1920.1040" timestamp="1599333208659" />
-    <state x="414" y="175" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599497645242">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="414" y="175" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599497645242" />
-    <state x="740" y="287" key="FileChooserDialogImpl" timestamp="1599333238227">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="740" y="287" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1599333238227" />
-    <state width="1899" height="274" key="GridCell.Tab.0.bottom" timestamp="1599587557025">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599587557025" />
-    <state width="1899" height="274" key="GridCell.Tab.0.center" timestamp="1599587557024">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="274" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599587557024" />
-    <state width="1899" height="274" key="GridCell.Tab.0.left" timestamp="1599587557024">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="274" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599587557024" />
-    <state width="1899" height="274" key="GridCell.Tab.0.right" timestamp="1599587557025">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="274" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599587557025" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1598965919496">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1598965919496" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1599587488159">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599587488159" />
-    <state x="739" y="364" key="cloudConfig.PluginsDialog" timestamp="1599076445458">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="739" y="364" key="cloudConfig.PluginsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599076445458" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1599586000242">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1599586000242" />
   </component>
 </project>
